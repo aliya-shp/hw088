@@ -24,13 +24,13 @@ const run = async () => {
             title: 'First Post',
             user: users[0]._id,
             date: '2019-12-05T15:48:00.000',
-            image: 'first-post.png'
+            image: 'fixtures/first_post.jpeg'
         },
         {
             title: 'Second Post',
             user: users[0]._id,
             date: '2020-01-05T15:48:00.000',
-            image: 'second-post.png'
+            image: 'fixtures/second_post.jpeg'
         },
     );
 

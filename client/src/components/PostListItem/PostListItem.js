@@ -13,7 +13,7 @@ const PostListItem = props => {
                     {props.title}
                 </Link>
                 <span style={{marginLeft: '10px'}}>
-                    published <i>{props.date}</i> by <strong>{props.user.username}</strong>
+                    published at<i>{new Date(props.date).toDateString()}</i> by <strong>{props.user.username}</strong>
                 </span>
             </CardBody>
         </Card>
